@@ -25,10 +25,10 @@ The project structure is organized as follows:
 
 - **index.js:** The JavaScript file handling interactivity, such as slider functionality and product details.
 
-##Usage
+## Usage
 - To use the website locally, clone the repository and open the index.html file in a web browser.
 
-##Tools and Technologies
+## Tools and Technologies
 - The project is built using the following tools and technologies:
 
 - **HTML5:** The markup language for structuring the website.
