@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Shoe Store </title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="nav-top">
+            <div class="navitems">
+                <img src="./img/sneakers.png" alt="" class="nav-logo">
+            </div>
+            <div class="navitems">
+                <div class="searchbar">
+                    <input type="text" placeholder="search...">
+                    <img src="./img/search.png" height="22"
+                    width="22" alt="">
+                </div>
+            </div>
+            <div class="navitems">
+                <h3> Limited offer </h3>
+            </div>
+        </div>
+        <div class="nav-bottom">
+            <h3 class="menuitems" id="a"> AIR FORCE</h3>
+            <h3 class="menuitems" id="b"> JORDAN </h3>
+            <h3 class="menuitems" id="c"> BLAZER </h3>
+            <h3 class="menuitems" id="d"> CRATER </h3>
+            <h3 class="menuitems" id="e"> HIPPIE </h3>
+        </div>
+    </nav>
+  <div class="slider">
+        <div class="sliderwrapper">
+            <div class="slideritem">
+                <img src="./img/air.png" alt="" 
+                class="sliderimg">
+                <div class="sliderbg"></div>
+                <h3 class="slidertext">
+                    Air Force <br> New <br>
+                    Season
+                </h3>
+                <h3 class="sliderprice"> $ 220 </h3>
+                <a href="#product">
+                    <button class="BuyBtn"> Buy Now</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./img/jordan.png" alt="" 
+                class="sliderimg">
+                <div class="sliderbg"></div>
+                <h3 class="slidertext">
+                    Jordan <br> NEW <br>
+                    Season
+                </h3>
+                <h3 class="sliderprice"> $ 280 </h3>
+                <a href="#product">
+                    <button class="BuyBtn"> Buy Now</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./img/blazer.png" alt="" 
+                class="sliderimg">
+                <div class="sliderbg"></div>
+                <h3 class="slidertext">
+                   Blazer <br> NEW <br>
+                    Season
+                </h3>
+                <h3 class="sliderprice"> $ 120 </h3>
+                <a href="#product">
+                    <button class="BuyBtn"> Buy Now</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./img/crater.png" alt="" 
+                class="sliderimg">
+                <div class="sliderbg"></div>
+                <h3 class="slidertext">
+                   Crater <br> NEW <br>
+                    Season
+                </h3>
+                <h3 class="sliderprice"> $ 80 </h3>
+                <a href="#product">
+                    <button class="BuyBtn"> Buy Now</button>
+                </a>
+            </div>
+            <div class="slideritem">
+                <img src="./img/hippie.png" alt="" 
+                class="sliderimg">
+                <div class="sliderbg"></div>
+                <h3 class="slidertext">
+                    Hippie <br> NEW <br>
+                    Season
+                </h3>
+                <h3 class="sliderprice"> $ 220 </h3>
+                <a href="#product">
+                    <button class="BuyBtn"> Buy Now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <div class="feature">
+           <img src="./img/shipping.png" alt="" class="featureImg">
+           <h2 class="featuretitle"> FREE SHIPPING</h2>
+           <p class="featuredesc"> Free Worldwide Shipping </p>
+        </div>
+        <div class="feature">
+           <img src="./img/return.png" alt="" class="featureImg">
+           <h2 class="featuretitle"> 30 DAYS EASY RETURN</h2>
+           <p class="featuredesc"> No Questions only Return and stay happy </p>
+        </div>
+        <div class="feature">
+           <img src="./img/gift.png" alt="" class="featureImg">
+           <h2 class="featuretitle"> EXICITING GIFTS</h2>
+           <p class="featuredesc"> Exiciting Gift Cards on Every Purchase </p>
+        </div>
+        <div class="feature">
+           <img src="./img/contact.png" alt="" class="featureImg">
+           <h2 class="featuretitle"> CONTACT US</h2>
+           <p class="featuredesc"> Feel Free to Contact us </p>
+        </div>
+    </div>
+
+    <div class="products" id="product">
+        <img src="./img/air.png" alt="" class="productimg">
+        <div class="productdetails">
+            <h1 class="producttitle">AIR FORCE</h1>
+            <p class="productprice"> $ 199</p>
+            <p class="productdesc"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, ullam?</p>
+
+            <div class="colors">
+                <div class="productcolor"></div>
+                 <div class="productcolor"></div>
+            </div>
+            <div class="productsizes">
+                <p> 42 </p>
+                <p> 43 </p>
+                <p> 44 </p>
+            </div>
+            <button class="productBUYbtn"> Buy Now </button>
+        </div>
+        <div class="paymentModal">
+            <div class="topcont">
+                <h1> Personal Information</h1>
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </div>
+            <label for=""> Full Name</label>
+            <input type="text" placeholder="Enter Your Name....">
+            <label for=""> Phone number</label>
+            <input type="text" placeholder="Enter Your Number....">
+            <label for=""> Address </label>
+            <input type="text" placeholder="Enter Your Address....">
+            <h1> Card Information </h1>
+            <div class="cardimages">
+                <img src="./img/visa.png" alt="">
+                <img src="./img/master.png" alt="">
+            </div>
+            <div class="carddetails">
+                <label for=""> Card Number </label>
+                <input type="password" placeholder="Card Number...">
+               <div class="carddetails2">
+                <label for=""> mm </label>
+                <input type="password" placeholder="Card Number...">
+                <label for=""> yyyy </label>
+                <input type="password" placeholder="Card Number...">
+                <label for=""> CVV </label>
+                <input type="password" placeholder="Card Number...">
+               </div>
+            </div>
+            <button class="pamentbtn">
+                Pay Now
+            </button>
+        </div>
+    </div>
+    
+
+    <div class="nsgallery">
+        <div class="nsitems">
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+        <div class="nsitems">
+            <h1> New Arrivals </h1>
+            <h2> Winter New Season </h2>
+             <button> 
+                <a href="#nav"> Check this out</a>
+             </button>
+        </div>
+        <div class="nsitems">
+            <img src="https://media.istockphoto.com/id/679539190/photo/indian-made-mens-shoes.webp?b=1&s=170667a&w=0&k=20&c=ZzBECrsrwFLEI58Nsklm4Ggqj2gMY4PsWgLut8fFm3Y=" alt="">
+        </div>
+    </div>
+      
+
+    <footer>
+        <div class="footerleft">
+            <div class="fitems">
+                <h2> About us</h2>
+                <ul class="menulist">
+                    <li> Company </li>
+                    <li> Contact </li>
+                    <li> Carrers</li>
+                    <li> Stores</li>
+                    <li> Brand Value </li>
+                </ul>
+            </div>
+            <div class="fitems">
+                <h2> Useful Links</h2>
+                <ul class="menulist">
+                    <li> Feedbacks </li>
+                    <li> Support </li>
+                    <li> Refund</li>
+                    <li> FAQ </li>
+                    <li> Stories</li>
+                </ul>
+            </div>
+            <div class="fitems">
+                <h2> Products</h2>
+                <ul class="menulist">
+                    <a href="#a"><li> Air Force </li></a>
+                   <a href="#b"> <li> Jordan </li></a>
+                    <a href="#c"><li> Crater</li></a>
+                  <a href="#d">  <li> Blazer</li></a>
+                   <a href="#e">  <li> Hippie </li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footerright">
+             <h2>Subscribe To our Newsletter</h2>
+             <div class="inputbox">
+                <input type="text" placeholder="Enter your Email.....">
+                <button>
+                    Join
+                </button>
+             </div>
+          <div class="followbox">
+            <h2> Follow us!</h2>
+            <div class="icons">
+               <img src="./img/facebook.png" alt="">
+               <img src="./img/instagram.png" alt="">
+               <img src="./img/twitter.png" alt="">
+               <img src="./img/whatsapp.png" alt="">
+            </div>
+          </div>
+          <div class="footerRightMenu">
+            <span class="copyright"><a href="https://github.com/Rishikashyap007">
+                @rishikashyap
+            </a>. All rights reserved. 2022.</span>
+        </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
