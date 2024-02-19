@@ -26,15 +26,15 @@ The project structure is organized as follows:
 - **index.js:** The JavaScript file handling interactivity, such as slider functionality and product details.
 
 ##Usage
-To use the website locally, clone the repository and open the index.html file in a web browser.
+- To use the website locally, clone the repository and open the index.html file in a web browser.
 
 ##Tools and Technologies
-The project is built using the following tools and technologies:
+- The project is built using the following tools and technologies:
 
-HTML5: The markup language for structuring the website.
+- **HTML5:** The markup language for structuring the website.
 
-CSS3: The style sheet language for styling the website.
+- **CSS3:** The style sheet language for styling the website.
 
-JavaScript: The programming language for implementing interactivity.
+- **JavaScript:** The programming language for implementing interactivity.
 
-Google Fonts: The Roboto font is used for a modern and clean look.
+- **Google Fonts:** The Roboto font is used for a modern and clean look.
