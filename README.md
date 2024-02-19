@@ -1,9 +1,9 @@
 ## Sneaker-store-clone
-This repository contains the code for a simple e-commerce website built using HTML, CSS, and JavaScript. The website features a responsive design and includes various sections such as a product slider, product details, and a payment modal.
+**This repository contains the code for a simple e-commerce website built using HTML, CSS, and JavaScript. The website features a responsive design and includes various sections such as a product slider, product details, and a payment modal.**
 
 
-##Introduction
-The e-commerce website is designed to showcase different product categories, allowing users to explore products, view details, and make purchases. It utilizes modern web development technologies to create an interactive and visually appealing user experience.
+## Introduction
+The website is designed to showcase different product categories, allowing users to explore products, view details, and make purchases. It utilizes modern web development technologies to create an interactive and visually appealing user experience.
 
 ## Features
 
