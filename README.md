@@ -37,7 +37,8 @@ The project structure is organized as follows:
 
 - **JavaScript:** The programming language for implementing interactivity.
 
-- **Google Fonts:** The Roboto font is used for a modern and clean look.
+- **Google Fonts:** The Roboto font is used for a modern and clean look..
+
 
   
 ## Live Demo
